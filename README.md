@@ -17,8 +17,14 @@ This web application aims to predict whether a given text message is spam or not
 - **Pandas:** Used for data manipulation and handling the dataset.
 - **Joblib:** The trained model is saved and loaded using Joblib for efficient model deployment.
 
-## How to Run the App
+## Dataset
+The model was trained on a dataset containing labeled examples of spam and non-spam text messages. The dataset used for training is not included in this repository due to its size, but you can use a similar dataset for training your model. You can find the dataset in Spam.csv file.
 
-1. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
+## Model Training
+The model is trained using a supervised classification learning approach. The training script and model details can be found in the webapp.py file.
+
+## Acknowledgments
+The project structure and web app template are inspired by the [Streamlit Official Documentation](https://docs.streamlit.io/) .
+The machine learning model is trained using resources from the [Scikit-learn Documentation](https://scikit-learn.org/stable/index.html).
+
+Feel free to explore and enhance the project as needed. If you encounter any issues or have suggestions for improvement, please open an issue.
